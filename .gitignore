@@ -1,0 +1,74 @@
+# 🔐 Environment variables
+.env
+.env.*
+*.env
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🗃️ SQLite database
+db.sqlite3
+db.sqlite3-journal
+
+# 📦 Virtual environment
+venv/
+env/
+ENV/
+
+# 📁 Django stuff
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# 📁 Static & media (optional)
+staticfiles/
+media/
+
+# 🧪 Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🧾 Migrations (optional - keep if team project)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# 📦 Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+# 🧠 IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🪟 OS files
+.DS_Store
+Thumbs.db
+
+# 🔑 Secrets
+*.pem
+*.key
+
+# 🚀 Deployment
+*.log
+gunicorn.log
+
+# 📦 Node (if using React/Vite frontend)
+node_modules/
+dist/
