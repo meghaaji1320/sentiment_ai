@@ -1,0 +1,1 @@
+gunicorn sentiment_project.wsgi:application
